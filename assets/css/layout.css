@@ -1,0 +1,40 @@
+.heading{
+    margin-top: 2.5%;
+    color: rgb(109, 10, 92);
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 6rem;;
+}
+
+.outer{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.inner{
+    margin-left: 10%;
+    width: 13%;
+}
+
+.pop-up{
+    display: none;
+}
+
+.inner:hover .pop-up{
+    display: block;
+    background-color: rgb(232, 250, 244);
+}
+
+.inner:hover .show{
+    margin-bottom: -19px;
+    background-color: rgb(232, 250, 244);
+}
+
+a{
+    margin-left: 1rem;
+    color: lightgrey;
+}
+
+span{
+    display: block;
+}
